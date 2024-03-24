@@ -28,7 +28,7 @@ async function buscarDadosDaCidade(cidade) {
 function preecherDadosNaTela(dados, cidade) {
     const temperatura = dados.current.temp_c;
     const condicao = dados.current.condition.text;
-    const humidade = dados.current.humidity;
+    const Umidade = dados.current.humidity;
     const velocidadeDoVento = dados.current.wind_kph;
     const iconeCondicao = dados.current.condition.icon;
 
@@ -39,7 +39,7 @@ function preecherDadosNaTela(dados, cidade) {
 
     document.querySelector("#condicao").textContent = condicao;
 
-    document.querySelector("#humidade").textContent = `${humidade}%`;
+    document.querySelector("#Umidade").textContent = `${Umidade}%`;
 
     document.querySelector("#velocidade-do-vento").textContent = `${velocidadeDoVento} km/h`;
 

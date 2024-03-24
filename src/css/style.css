@@ -82,7 +82,7 @@ body{
   border-bottom-right-radius: 15px;
 }
 
-.informacao-secundaria .humidade,
+.informacao-secundaria .Umidade,
 .informacao-secundaria .velocidade-do-vento {
   display: flex;
   justify-content: space-between;
